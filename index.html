@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  <meta name="description" content="Portfolio de Sa-Rém Joseph TIBIKENA, étudiant en Systèmes et Réseaux informatiques, passionné par les réseaux, Linux et la cybersécurité.">
+  <meta name="author" content="Sa-Rém Joseph TIBIKENA">
+  <meta name="theme-color" content="#080808">
+
+  <title>Sa-Rém Joseph TIBIKENA | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Version figée de Devicon (plus stable que @latest) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+  <link rel="stylesheet" href="joseph.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <a class="logo" href="#home">TIBI TECH.</a>
+
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="mainNav" aria-label="Navigation principale">
+      <a href="#home">Accueil</a>
+      <a href="#education">Formation</a>
+      <a href="#services">Compétences</a>
+      <a href="#projects">Projets</a>
+      <a href="#certificates">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+  <!-- Présentation -->
+  <section class="home" id="home">
+
+    <div>
+      <h1 class="hi">
+        Salut, je suis
+        <span>Sa-Rém Joseph TIBIKENA</span>
+      </h1>
+
+      <div class="typing" id="typing" aria-live="off">
+        Étudiant en Systèmes et Réseaux
+      </div>
+
+      <p>
+        Étudiant en deuxième année de Licence en Systèmes et Réseaux
+        informatiques à DEFITECH, je suis passionné par les technologies
+        informatiques, l'administration des réseaux et les systèmes Linux.
+        Je développe progressivement mes compétences en programmation,
+        en configuration réseau et en administration système.
+        Mon objectif est de devenir ingénieur en réseaux et systèmes,
+        avec une spécialisation en cybersécurité.
+      </p>
+
+      <!-- Réseaux sociaux : remplace chaque # par ton vrai lien -->
+      <div class="social">
+
+        <a href="https://www.facebook.com/profile.php?id=61590501548111" aria-label="Facebook" style="--c:#1877f2" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M13.5 22v-8.2h2.8l.5-3.3h-3.3V8.4c0-.9.4-1.7 1.8-1.7h1.6V3.8s-1.3-.2-2.5-.2c-2.6 0-4.2 1.6-4.2 4.4v2.5H7.4v3.3h2.8V22z"/>
+          </svg>
+        </a>
+
+        <!-- WhatsApp : remplace par https://wa.me/228XXXXXXXX (indicatif + numéro, sans + ni espaces) -->
+        <a href="#contact" aria-label="WhatsApp" style="--c:#25d366">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3.5 20.5l1.4-4.6A8.5 8.5 0 1 1 8.2 19.2z"/>
+            <path d="M9.2 7.8c-.4.4-.7 1.1-.4 2 .6 1.7 2.2 3.3 4 4 .9.4 1.6 0 1.9-.4l.4-.7-1.7-.9-.7.7c-.8-.3-1.8-1.3-2.1-2.1l.7-.7-.9-1.7z" fill="currentColor" stroke="none"/>
+          </svg>
+        </a>
+
+        <a href="https://www.instagram.com/j2472026" aria-label="Instagram" style="--c:#e4405f" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="5"/>
+            <circle cx="12" cy="12" r="4"/>
+            <circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/>
+          </svg>
+        </a>
+
+        <a href="https://www.linkedin.com/in/sa-r%C3%A9m-joseph-tibikena-619129390" aria-label="LinkedIn" style="--c:#0a8bf0" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <circle cx="6.5" cy="6.5" r="1.8"/>
+            <rect x="5" y="9.5" width="3" height="9"/>
+            <path d="M10.5 9.5h2.8v1.3c.5-.9 1.6-1.5 2.9-1.5 2.7 0 3.3 1.7 3.3 4v5.2h-3v-4.4c0-1 0-2.2-1.4-2.2s-1.6 1-1.6 2.1v4.5h-3z"/>
+          </svg>
+        </a>
+
+        <a href="https://github.com/saremtibi-glitch" aria-label="GitHub" style="--c:#ffffff" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 .9A11.1 11.1 0 0 0 8.5 22.5c.6.1.8-.3.8-.6v-2.1c-3.4.7-4.1-1.4-4.1-1.4-.5-1.3-1.3-1.6-1.3-1.6-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.4-5.5-6.1 0-1.4.5-2.5 1.2-3.4-.1-.3-.5-1.6.1-3.3 0 0 1-.3 3.5 1.3a12 12 0 0 1 6.4 0c2.4-1.6 3.5-1.3 3.5-1.3.7 1.7.3 3 .1 3.3.8.9 1.2 2 1.2 3.4 0 4.7-2.8 5.8-5.5 6.1.4.4.8 1 .8 2v3c0 .3.2.7.8.6A11.1 11.1 0 0 0 12 .9z"/>
+          </svg>
+        </a>
+
+      </div>
+
+      <div class="actions">
+        <a class="btn fill" href="#projects">Voir mes projets</a>
+        <a class="btn" href="#contact">Me contacter</a>
+      </div>
+    </div>
+
+    <div class="photo-wrap">
+      <div class="photo">
+        <!-- Place ta photo "me.jpg" dans le même dossier que ce fichier -->
+        <img src="me.jpg" alt="Photo de Sa-Rém Joseph TIBIKENA" onerror="this.style.display='none'">
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Formation -->
+  <section id="education">
+    <h2>Ma <span>formation</span></h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <small>Formation actuelle</small>
+        <h3>Licence 2 en Systèmes et Réseaux</h3>
+        <p>
+          Je poursuis ma deuxième année de Licence à DEFITECH.
+          Ma formation porte notamment sur les réseaux informatiques,
+          les systèmes d'exploitation, la programmation et les
+          technologies nécessaires à l'administration informatique.
+        </p>
+      </div>
+
+      <div class="card">
+        <small>Parcours scolaire</small>
+        <h3>Baccalauréat série D</h3>
+        <p>
+          Mon baccalauréat scientifique m'a permis de renforcer
+          mes connaissances en mathématiques et en sciences,
+          ainsi que mon esprit logique et ma capacité à analyser
+          des problèmes.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Compétences -->
+  <section id="services">
+    <h2>Mes <span>compétences</span></h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Programmation et développement web</h3>
+        <p>
+          J'étudie la programmation et le développement web
+          afin de concevoir des pages, de comprendre le fonctionnement
+          des applications et de résoudre des problèmes informatiques.
+        </p>
+
+        <div class="tech-logos">
+          <div class="tech"><i class="devicon-c-plain colored"></i><span>C</span></div>
+          <div class="tech"><i class="devicon-java-plain colored"></i><span>Java</span></div>
+          <div class="tech"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+          <div class="tech"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+          <div class="tech"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+          <div class="tech"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+          <div class="tech"><i class="devicon-php-plain colored"></i><span>PHP</span></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Administration systèmes et Linux</h3>
+        <p>
+          Découverte de l'environnement Linux, utilisation de commandes
+          système, gestion des fichiers et apprentissage des bases
+          de l'administration d'un serveur.
+        </p>
+
+        <div class="tech-logos">
+          <div class="tech"><i class="devicon-linux-plain colored"></i><span>Linux</span></div>
+          <div class="tech"><i class="devicon-ubuntu-plain colored"></i><span>Ubuntu</span></div>
+          <div class="tech"><i class="devicon-bash-plain colored"></i><span>Bash</span></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Réseaux informatiques</h3>
+        <p>
+          Apprentissage de l'adressage IP, de la configuration
+          des équipements réseau, de l'interconnexion des réseaux
+          et de la segmentation avec les VLAN.
+        </p>
+
+        <div class="tech-logos">
+          <!-- Logo Cisco (barres) dessiné en SVG -->
+          <div class="tech">
+            <svg viewBox="0 0 48 32" fill="none" stroke="#049fd9" stroke-width="3" stroke-linecap="round" aria-hidden="true">
+              <path d="M4 20v6M10 14v12M16 8v18M22 14v12M28 4v22M34 14v12M40 8v18M44 18v8"/>
+            </svg>
+            <span>Cisco</span>
+          </div>
+
+          <!-- Icône réseau générique -->
+          <div class="tech">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true" style="color:var(--accent)">
+              <circle cx="12" cy="5" r="2.5"/>
+              <circle cx="5" cy="19" r="2.5"/>
+              <circle cx="19" cy="19" r="2.5"/>
+              <path d="M11 7.3 6 16.8M13 7.3l5 9.5M7.5 19h9"/>
+            </svg>
+            <span>IP / VLAN</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Gestion de projet</h3>
+        <p>
+          Organisation des tâches, planification des étapes,
+          répartition des responsabilités et suivi de l'avancement
+          d'un projet pour atteindre les objectifs fixés.
+        </p>
+        <div class="tags"><span>Organisation</span><span>Planification</span><span>Suivi</span></div>
+      </div>
+
+      <div class="card">
+        <h3>Cybersécurité</h3>
+        <p>
+          Je m'intéresse aux principes de la sécurité informatique,
+          à la protection des systèmes et des réseaux, ainsi qu'aux
+          bonnes pratiques permettant de réduire les risques.
+        </p>
+        <div class="tags"><span>Sécurité réseau</span><span>Bonnes pratiques</span><span>Cisco NetAcad</span></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Projets -->
+  <section id="projects">
+    <h2>Mes <span>projets</span></h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <small>Linux et administration système</small>
+        <h3>Hébergement web sous Ubuntu Server</h3>
+        <p>
+          Projet académique consistant à préparer un serveur Ubuntu,
+          installer et configurer Apache, héberger une page web
+          et vérifier son accessibilité depuis un ordinateur client.
+        </p>
+        <a class="btn" href="#contact" style="margin-top:14px">En savoir plus</a>
+      </div>
+
+      <div class="card">
+        <small>Réseaux informatiques</small>
+        <h3>Simulation réseau avec Cisco Packet Tracer</h3>
+        <p>
+          Mise en pratique de la configuration des commutateurs,
+          de l'adressage IP et de l'interconnexion de plusieurs
+          réseaux à l'aide d'un routeur.
+        </p>
+        <a class="btn" href="#contact" style="margin-top:14px">En savoir plus</a>
+      </div>
+
+      <div class="card">
+        <small>Projet technique</small>
+        <h3>TIBI TECH</h3>
+        <p>
+          Un espace consacré à mes travaux pratiques et à mes
+          apprentissages en systèmes, réseaux et développement,
+          avec l'objectif de documenter mes réalisations et
+          de progresser à travers des projets concrets.
+        </p>
+        <a class="btn" href="#contact" style="margin-top:14px">En savoir plus</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certificates" class="certificates">
+    <h2>Mes <span>certifications</span> et distinctions</h2>
+    <p class="section-intro">
+      Quelques distinctions et certifications obtenues dans le domaine informatique.
+    </p>
+
+    <div class="certificate-container">
+      <button class="cert-btn" type="button" data-dir="-1" aria-label="Certificats précédents">&#10094;</button>
+
+      <div class="certificate-track" id="certificateTrack">
+
+        <article class="certificate-card">
+          <a href="cisco.jpg" target="_blank" rel="noopener">
+            <img src="cisco.jpg" alt="Certificat Cisco Introduction to Cybersecurity" loading="lazy">
+          </a>
+          <div class="certificate-info">
+            <h3>Introduction to Cybersecurity</h3>
+            <p>Cisco Networking Academy</p>
+            <span>Cybersécurité</span>
+          </div>
+        </article>
+
+        <article class="certificate-card">
+          <a href="hp.jpg" target="_blank" rel="noopener">
+            <img src="hp.jpg" alt="Certificat HP LIFE IA pour les professionnels" loading="lazy">
+          </a>
+          <div class="certificate-info">
+            <h3>IA pour les professionnels</h3>
+            <p>HP LIFE</p>
+            <span>Intelligence artificielle</span>
+          </div>
+        </article>
+
+        <article class="certificate-card">
+          <a href="claude.jpg" target="_blank" rel="noopener">
+            <img src="claude.jpg" alt="Certificat Claude 101" loading="lazy">
+          </a>
+          <div class="certificate-info">
+            <h3>Claude 101</h3>
+            <p>Anthropic</p>
+            <span>Intelligence artificielle</span>
+          </div>
+        </article>
+
+        <article class="certificate-card">
+          <a href="IT.jpg" target="_blank" rel="noopener">
+            <img src="IT.jpg" alt="Certificat IT Tech Académie" loading="lazy">
+          </a>
+          <div class="certificate-info">
+            <h3>Linux et administration système</h3>
+            <p>IT Tech Académie</p>
+            <span>Administration systèmes</span>
+          </div>
+        </article>
+
+        <article class="certificate-card">
+          <a href="nasa.jpg" target="_blank" rel="noopener">
+            <img src="nasa.jpg" alt="NASA Nancy Grace Roman Space Telescope" loading="lazy">
+          </a>
+          <div class="certificate-info">
+            <h3>Nancy Grace Roman Space Telescope</h3>
+            <p>NASA – Adopt a Pixel</p>
+            <span>Exploration spatiale</span>
+          </div>
+        </article>
+
+      </div>
+
+      <button class="cert-btn" type="button" data-dir="1" aria-label="Certificats suivants">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Me <span>contacter</span></h2>
+
+    <p class="section-intro">
+      Pour échanger sur un projet informatique, une collaboration
+      ou une opportunité d'apprentissage, tu peux me contacter.
+    </p>
+
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Ton nom complet" aria-label="Ton nom complet" autocomplete="name" required>
+      <input type="email" name="email" placeholder="Ton adresse e-mail" aria-label="Ton adresse e-mail" autocomplete="email" required>
+      <textarea name="message" rows="5" placeholder="Écris ton message..." aria-label="Ton message" required></textarea>
+
+      <button class="btn fill" type="submit">Envoyer le message</button>
+      <p id="form-status" role="status"></p>
+    </form>
+  </section>
+
+  </main>
+
+  <!-- Pied de page -->
+  <footer>
+    <p>&copy; <span id="year"></span> Sa-Rém Joseph TIBIKENA. Tous droits réservés.</p>
+  </footer>
+
+  <script>
+    // ===== Animation du texte d'accueil =====
+    const words = [
+      "Étudiant en Systèmes et Réseaux",
+      "Passionné par Linux et les réseaux",
+      "Futur ingénieur en cybersécurité"
+    ];
+    const typingElement = document.getElementById("typing");
+    let wordIndex = 0, charIndex = 0, deleting = false;
+
+    function tick() {
+      const word = words[wordIndex];
+      typingElement.textContent = word.substring(0, charIndex);
+
+      if (!deleting && charIndex === word.length) {
+        deleting = true;
+        setTimeout(tick, 1400);
+        return;
+      }
+      if (deleting && charIndex === 0) {
+        deleting = false;
+        wordIndex = (wordIndex + 1) % words.length;
+      }
+      charIndex += deleting ? -1 : 1;
+      setTimeout(tick, deleting ? 45 : 85);
+    }
+    tick();
+
+    // ===== Année automatique =====
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // ===== Menu mobile =====
+    const menuToggle = document.getElementById("menuToggle");
+    const mainNav = document.getElementById("mainNav");
+
+    function setMenu(open) {
+      mainNav.classList.toggle("open", open);
+      menuToggle.classList.toggle("open", open);
+      menuToggle.setAttribute("aria-expanded", open);
+    }
+    menuToggle.addEventListener("click", () => setMenu(!mainNav.classList.contains("open")));
+    mainNav.querySelectorAll("a").forEach(a => a.addEventListener("click", () => setMenu(false)));
+
+    // ===== Lien actif dans le menu =====
+    const navLinks = mainNav.querySelectorAll("a");
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navLinks.forEach(l =>
+            l.classList.toggle("active", l.getAttribute("href") === "#" + entry.target.id)
+          );
+        }
+      });
+    }, { rootMargin: "-45% 0px -50% 0px" });
+    document.querySelectorAll("main section[id]").forEach(s => observer.observe(s));
+
+    // ===== Défilement des certificats =====
+    const track = document.getElementById("certificateTrack");
+    document.querySelectorAll(".cert-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const card = track.querySelector(".certificate-card");
+        const step = card ? card.offsetWidth + 25 : 300;
+        track.scrollBy({ left: Number(btn.dataset.dir) * step, behavior: "smooth" });
+      });
+    });
+
+    // ===== Formulaire : envoie le message directement sur ton WhatsApp =====
+    // Remplace par ton numéro : indicatif pays + numéro, sans "+", sans espaces ni tirets
+    const WHATSAPP_NUMBER = "22872016073";
+
+    // L'icône WhatsApp du haut de page ouvre aussi ta conversation
+    const waIcon = document.querySelector('a[aria-label="WhatsApp"]');
+    waIcon.href = "https://wa.me/" + WHATSAPP_NUMBER;
+    waIcon.target = "_blank";
+    waIcon.rel = "noopener noreferrer";
+
+    document.getElementById("contact-form").addEventListener("submit", function (event) {
+      event.preventDefault();
+      const data = new FormData(this);
+
+      const text =
+        "Bonjour Joseph, je te contacte depuis ton portfolio.\n\n" +
+        "*Nom :* " + data.get("name") + "\n" +
+        "*E-mail :* " + data.get("email") + "\n\n" +
+        "*Message :*\n" + data.get("message");
+
+      const url = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(text);
+
+      window.open(url, "_blank", "noopener");
+
+      document.getElementById("form-status").textContent =
+        "WhatsApp va s'ouvrir avec ton message prêt à envoyer.";
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>
